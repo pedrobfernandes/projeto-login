@@ -4,8 +4,8 @@
 /*
     Paleta de Cores:
 
-    Verde: #49a09d
-    Lilas: #5f2c82
+    #474950
+    #757783
 */
 
 * {
@@ -16,7 +16,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #474950;
     height: 100vh;
     width: 100vw;
 }
@@ -38,11 +38,14 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/building.jpg) no-repeat bottom center;
+    background: #474950 url(../imagens/building.jpg) no-repeat bottom center;
     background-size: cover;
     height: 200px;
 }
