@@ -4,8 +4,13 @@
 /*
     Paleta de Cores:
 
-    #474950
-    #757783
+
+    #5C5C5C
+    #666666
+    #707070
+
+    #2c2c2c
+    #3f3f3f
 */
 
 * {
@@ -16,7 +21,7 @@
 }
 
 body, html {
-    background-color: #474950;
+    background-color: #2c2c2c;
     height: 100vh;
     width: 100vw;
 }
@@ -45,7 +50,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #474950 url(../imagens/building.jpg) no-repeat bottom center;
+    background: #2c2c2c url(../imagens/building.jpg) no-repeat bottom center;
     background-size: cover;
     height: 200px;
 }
