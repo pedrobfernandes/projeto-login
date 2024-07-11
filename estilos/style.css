@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
 
-/*
-    Paleta de Cores:
-
-    #22353C
-    #364950
-    #586C6D
-    
-*/
-
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
@@ -18,7 +9,7 @@
 }
 
 body, html {
-    background-color: #22353C;
+    background-color: #1D3940;
     height: 100vh;
     width: 100vw;
 }
@@ -47,7 +38,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #22353C url(../imagens/building.jpg) no-repeat bottom center;
+    background: #1D3940 url(../imagens/building.jpg) no-repeat bottom center;
     background-size: cover;
     height: 200px;
 }
@@ -60,21 +51,21 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 div#formulario > p {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 form > div.campo {
     position: relative;
     display: block;
-    background-color: #22353C;
+    background-color: #1D3940;
     width: 100%;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid #22353C;
+    border: 2px solid #1D3940;
     margin: 10px 0px;
 }
 
@@ -91,7 +82,7 @@ div.campo > span {
 
 div.campo > input {
     position: absolute;
-    background-color: #829798;
+    background-color: white;
     font-size: 1em;
     width: calc(100% - 39px);
     height: 100%;
@@ -101,6 +92,7 @@ div.campo > input {
 
 div.campo > input:focus-within {
     background-color: white;
+    padding: 10px;
 }
 
 form > input[type=submit] {
@@ -109,15 +101,17 @@ form > input[type=submit] {
     width: 100%;
     height: 40px;
     margin: 10px 0px;
-    background-color:  #22353C;
-    color: white;
-    border: none;
+    /*background-color:  #1D3940;*/
+    background-color:  white;
+    color: black;
+    border: 2px solid #1D3940;
     border-radius: 10px;
     cursor: pointer;
 }
 
 form > input[type=submit]:hover {
-    background-color: #586C6D;
+    background-color: #1D3940;
+    color: white;
 }
 
 form > a.botao {
@@ -127,15 +121,15 @@ form > a.botao {
     width: 100%;
     height: 40px;
     padding-top: 10px;
-    background-color: #22353C;
-    color: white;
-    border: none;
+    background-color: white;
+    color: black;
+    border: 2px solid #1D3940;
     border-radius: 10px;
     text-decoration: none;
 }
 
 form > a.botao:hover {
-    background-color: #586C6D;
+    background-color: #1D3940;
     color: white;
 }
 
